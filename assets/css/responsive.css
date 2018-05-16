@@ -62,6 +62,11 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     .righttmargin{
       padding-right: 20px;
     }
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.);
+        width: 100%;
+        min-height: 750px;
+    }
 }
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
@@ -163,6 +168,17 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 
     .change-order-element {
       order: 1;
+    }
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.);
+        width: 100%;
+        min-height: 550px;
+    }
+    .logoharper{
+
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
     }
 }
 
