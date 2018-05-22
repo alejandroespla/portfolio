@@ -255,6 +255,11 @@ textarea.form-control {
     text-align: center;
     transition: .3s ease-in-out;
     padding: 8px;
+  }
+  .description-responsive{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 
 
