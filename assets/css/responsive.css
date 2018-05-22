@@ -141,7 +141,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
       font-size: 20px;
     }
     .logo-wrapper {
-      flex-wrap: wrap;
+
     }
     .home{
         background: url('../images/iphone.png') no-repeat center top fixed;
@@ -180,6 +180,54 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
       padding-right: 20px;
       padding-bottom: 20px;
     }
+    .contact-form .form-group label {
+    font-size: 15px;}
+    .contact-left-info h5{
+      font-size: 15px;
+    }
+    .contact-left-info{
+      margin-bottom: 25px;
+    }
+    .contact-top{
+      margin-bottom: 50px;
+    }
+    .numbers{
+      font-size: 30px;
+    }
+    .h1{
+      font-size: 20px;
+    }
+    .btn {
+    margin-top: 15px;
+
+    font-size: 14px;
+}
+textarea.form-control {
+    height: 100px;
+}
+.contact-top-responsive {
+  margin-bottom: 0px;
+}
+.photoshop1{
+  height: 7%;
+  width: 7%;
+}
+.service-item i {
+    background: #f5f6f8;
+    height: 0px;
+    width: 0px;
+    border-radius: 100%;
+    color: #00a5ff;
+    font-size: 15px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.service-item h5 {
+    text-transform: uppercase;
+    color: #3a3f4b;
+    font-family: 'Montserrat-regular';
+    font-size: 10px;
+}
 }
 
 
@@ -204,9 +252,6 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     }
     .portfolio-item h2 {
         font-size: 15px;
-    }
-    .btn {
-        padding: 16px 28px;
     }
     .contact-top h1 {
         text-align: center;
@@ -257,8 +302,9 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
         margin: 0 auto;
     }
 .logo-wrapper {
-  flex-wrap: wrap;
+
 }
+
 
 
 }
@@ -299,6 +345,6 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
         height: 40px;
     }
     .logo-wrapper {
-      flex-wrap: wrap;
+      align-items: center;
     }
 }

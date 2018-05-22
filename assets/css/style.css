@@ -323,7 +323,7 @@ Button
 */
 .btn {
     padding: 6px 30px;
-    font-family: 'open_sanssemibold';
+    font-family: 'Montserrat-regular';
     border-radius: 50px;
     font-size: 18px;
     box-shadow:2px 2px 5px 0 rgba(55,50,40, .20);
@@ -546,13 +546,13 @@ textarea::-ms-input-placeholder
 
 /* Service Section */
 .service-item{
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .service-item h5{
     text-transform: uppercase;
     color: #3a3f4b;
-    font-family: 'lorabold';
+    font-family: 'Montserrat-regular';
 }
 
 .service-item i{
