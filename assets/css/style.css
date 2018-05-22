@@ -998,3 +998,7 @@ textarea::-ms-input-placeholder
   padding-right: 70px;
   padding-bottom: 70px;
 }
+
+.form-control {
+  color: #fff;
+}

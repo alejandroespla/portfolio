@@ -2,18 +2,18 @@
 
 
 jQuery(document).ready(function ($) {
-	
-	
+
+
 	/*---------------------------------------------*
      * Preloader
      ---------------------------------------------*/
-	 
+
 	$(window).load(function () {
 		$(".loaded").fadeOut();
 		$(".preloader").delay(1000).fadeOut("slow");
 	});
-	
-	
+
+
     /*---------------------------------------------*
      * Mobile menu
      ---------------------------------------------*/
@@ -121,7 +121,7 @@ jQuery(document).ready(function ($) {
      ---------------------------------------------*/
 
     $.localScroll();
-    
+
     /*---------------------------------------------*
      * Gallery Pop Up Animation
      ---------------------------------------------*/
@@ -136,7 +136,7 @@ jQuery(document).ready(function ($) {
 
 
     /*---------------------------------------------*
-     * Counter 
+     * Counter
      ---------------------------------------------*/
 
 //    $('.statistic-counter').counterUp({
@@ -190,4 +190,19 @@ jQuery(document).ready(function ($) {
 
 
     //End
+
+		var sendMessage = document.getElementById("send-message");
+		sendMessage.addEventListener('click', (e) => {
+			e.preventDefault();
+			let name = document.getElementById('inputName').value;
+			let from = document.getElementById('inputEmail').value;
+			let message = document.getElementById('inputMessage').value;
+      let to = 'alexesplata@gmail.com'
+      let subject = 'Nuevo Mensaje desde mi Web Personal'
+      let provider = 'Alex Esplá Web'
+      let data = { name, from, message, provider, to, subject };
+			axios.post('https://emailing-microservice.herokuapp.com/send-email', data)
+			.then(mensaje => console.log("mensaje enviado correctamente"))
+			.catch(error => console.log(error))
+		})
 });

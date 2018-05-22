@@ -9,13 +9,14 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Velox - Free Html5 Portfolio One Page Template</title>
+  <title>Alex Esplá</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
   <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
 
 
@@ -253,7 +254,7 @@
               <div class="col-md-6 col-sm-6 col-xs-12 leftmargin righttmargin change-order-element">
                 <p class="works h1 topworks "><span class="h2 numbers">04</span> Illustrations</p>
                 <h3 class="left description ">App to improve the recycling process and motivate people to be more constant. It allows you to win points that you will change for prices or cash.</h3>
-                <a href="#" class="btn btn-primary topbutton">View</a>
+                <a href="./Illustrations.html" class="btn btn-primary topbutton">View</a>
 
               </div>
 
@@ -310,19 +311,19 @@
           <!-- /.navbar-collapse -->
 
           <div class="contact-form">
-            <form action="" method="POST">
+            <form>
               <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12">
                   <div class="form-group">
                     <label for="exampleInputEmail1">Name</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="">
+                    <input name=”cf_name” type="text" class="form-control" id="inputName" placeholder="">
                   </div>
                 </div>
 
                 <div class="col-md-6 col-sm-12 col-xs-12">
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Subject</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input name=”cf_subject” type="email" class="form-control" id="inputEmail" placeholder="">
                   </div>
                 </div>
               </div>
@@ -331,12 +332,12 @@
                 <div class="col-md-12 col-sm-12 col-xs-12">
                   <div class="form-group">
                     <label for="exampleInputPassword1">Your Message</label>
-                    <textarea rows="7" class="form-control" id="exampleInputPassword1" placeholder=""></textarea>
+                    <textarea name=”cf_message” rows="7" class="form-control" id="inputMessage" placeholder=""></textarea>
                   </div>
                 </div>
               </div>
               <div class="contact-btn">
-                <button type="submit" class="btn btn-primary">Send Message</button>
+                <button class="btn btn-primary" id="send-message">Send Message</button>
               </div>
             </form>
           </div>
@@ -379,7 +380,7 @@
     </div>
   </footer>
 
-
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
   <script src="assets/js/vendor/bootstrap.min.js"></script>
   <script src="assets/js/vendor/isotope.min.js"></script>
